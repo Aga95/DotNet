@@ -9,3 +9,9 @@ C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.Model\bin\Debug\School.M
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.Model\obj\Debug\School.Model.csproj.CoreCompileInputs.cache
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.Model\obj\Debug\School.Model.dll
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.Model\obj\Debug\School.Model.pdb
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\bin\Debug\School.Model.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\bin\Debug\School.Model.pdb
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\obj\Debug\School.Model.csproj.CoreCompileInputs.cache
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\obj\Debug\School.Model.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\obj\Debug\School.Model.pdb
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\obj\Debug\School.Model.csprojResolveAssemblyReference.cache

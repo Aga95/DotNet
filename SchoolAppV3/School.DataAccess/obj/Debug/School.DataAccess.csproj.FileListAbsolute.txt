@@ -26,3 +26,17 @@ C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.DataAccess\obj\Debug\Sch
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.csproj.CopyComplete
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.dll
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.pdb
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\School.DataAccess.dll.config
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\School.DataAccess.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\School.DataAccess.pdb
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\School.Model.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\School.Model.pdb
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.csproj.CopyComplete
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.dll
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.DataAccess\obj\Debug\School.DataAccess.pdb

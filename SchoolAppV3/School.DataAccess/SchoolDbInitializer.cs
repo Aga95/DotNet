@@ -13,10 +13,9 @@ namespace School.DataAccess
 
         protected override void Seed(SchoolContext context)
         {
-            var agaHussein = context.Students.Add(new Student(1, "aga", "Hussein"));
 
-            context.Courses.Add(new Course() { CourseName = ".net", Students = new List<Student>() { agaHussein } });
             base.Seed(context);
         }
     }
+
 }

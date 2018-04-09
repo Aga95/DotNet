@@ -229,3 +229,16 @@ C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.App\obj\x86\Debug\View\H
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.g.cs
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.xaml
 C:\Users\Master\Desktop\Ny mappe (3)\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.xbf
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\School.App.csprojResolveAssemblyReference.cache
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\App.g.i.cs
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\App.g.cs
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\MainPage.g.cs
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.g.i.cs
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.g.cs
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\App.xaml
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\MainPage.xaml
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.xaml
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\App.xbf
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\MainPage.xbf
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.App\obj\x86\Debug\View\HomePage.xbf
