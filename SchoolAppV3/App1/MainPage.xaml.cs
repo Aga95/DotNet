@@ -64,6 +64,25 @@ namespace App1
             GetDatabaseStudents();
         }
 
+        private async void AddCourse(object sender, RoutedEventArgs e)
+        {
+            string courseName = CourseName.Text;
+            Course c = new Course(0, courseName);
+            var payload = await Task.Run(() => JsonConvert.SerializeObject(c));
+            var httpContent = new StringContent(payload, Encoding.UTF8, "application/json");
+
+            using (var client = new HttpClient())
+            {
+                var httpResponse = await client.PostAsync("http://localhost:61295/api/Course", httpContent);
+
+                if (httpResponse.Content != null)
+                {
+                    var responseContent = await httpResponse.Content.ReadAsStringAsync();
+                }
+            }
+            GetDatabaseCourses();
+        }
+
         public async void GetDatabaseStudents()
         {
             dynamic students;
@@ -90,7 +109,7 @@ namespace App1
                 client.BaseAddress = new Uri("http://localhost:61295/api/");
 
                 var json = await client.GetStringAsync("Course").ConfigureAwait(false);
-                courses = JsonConvert.DeserializeObject<List<Student>>(json);
+                courses = JsonConvert.DeserializeObject<List<Course>>(json);
 
             }
             CourseList = new ObservableCollection<Course>();

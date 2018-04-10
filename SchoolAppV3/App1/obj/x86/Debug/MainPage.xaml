@@ -14,7 +14,9 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <TextBox Text="{Binding FirstName}" 
+                        <TextBlock Text="{Binding FirstName}" 
+                             Foreground="Black"/>
+                        <TextBlock Text="{Binding LastName}" 
                              Foreground="Black"/>
                     </StackPanel>
                 </DataTemplate>
@@ -25,7 +27,7 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <TextBox Text="{Binding CourseName}" 
+                        <TextBlock Text="{Binding CourseName}" 
                              Foreground="Black"/>
                     </StackPanel>
                 </DataTemplate>
@@ -39,6 +41,8 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         <Button x:ConnectionId='4' Content="Add Student" HorizontalAlignment="Left" Margin="117,276,0,0" VerticalAlignment="Top"                   />
         <TextBox x:ConnectionId='5' x:Name="FirstName" HorizontalAlignment="Left" Margin="302,263,0,0" Text="First Name" VerticalAlignment="Top" Width="93"/>
         <TextBox x:ConnectionId='6' x:Name="LastName" HorizontalAlignment="Left" Margin="302,330,0,0" Text="Last Name" VerticalAlignment="Top" Width="93"/>
+        <Button x:ConnectionId='7' Content="Add Course" HorizontalAlignment="Left" Margin="118,464,0,0" VerticalAlignment="Top"                  />
+        <TextBox x:ConnectionId='8' x:Name="CourseName" HorizontalAlignment="Left" Margin="302,464,0,0" Text="Course Name" VerticalAlignment="Top" Width="93"/>
 
 
     </Grid>
