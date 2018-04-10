@@ -105,7 +105,7 @@ namespace School.Api.Controllers
 
 
         [HttpPost()]
-        [Route("api/Students/{studentId}/Courses/{courseId}")]
+        [Route("api/Student/{studentId}/Course/{courseId}")]
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> AddCourse(int studentId, int courseId)
         {

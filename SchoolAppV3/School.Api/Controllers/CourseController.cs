@@ -18,13 +18,13 @@ namespace School.Api
 
         private SchoolContext db = new SchoolContext();
 
-        // GET api/Courses
+        // GET api/Course
         public IQueryable<Course> GetCourses()
         {
             return db.Courses;
         }
 
-        // GET api/Courses/5
+        // GET api/Course/5
         [ResponseType(typeof(Course))]
         public async Task<IHttpActionResult> GetCourse(int id)
         {
@@ -36,7 +36,7 @@ namespace School.Api
             return Ok(course);
         }
 
-        // POST api/Courses
+        // POST api/Course
         [ResponseType(typeof(Course))]
         public async Task<IHttpActionResult> PostCourse(Course course)
         {
@@ -51,7 +51,7 @@ namespace School.Api
             return CreatedAtRoute("DefaultApi", new { id = course.CourseId}, course);
         }
 
-        // PUT api/Courses/5
+        // PUT api/Course/5
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutCourse(int id, Course course)
         {
@@ -86,7 +86,7 @@ namespace School.Api
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // DELETE api/Courses/5
+        // DELETE api/Course/5
         [ResponseType(typeof(Course))]
         public async Task<IHttpActionResult> DeleteCourse(int id)
         {

@@ -4,37 +4,41 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:local="using:School.App"
     xmlns:model="using:School.Model"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-
-        <ListView x:Name="studentViewList" Margin="1209,10,10,605">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        
+        <ListView x:Name="studentViewList" Margin="511,53,575,412"
+                  Background="CadetBlue">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
-                        <TextBlock Text="{Binding FirstName}" 
+                    <StackPanel>
+                        <TextBox Text="{Binding FirstName}" 
                              Foreground="Black"/>
-                    </Grid>
+                    </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <ListView x:Name="courseViewList" Margin="1209,480,10,128">
+        <ListView x:Name="courseViewList" Margin="834,53,252,412"
+                  Background="CadetBlue">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
-                        <TextBlock Text="{Binding CourseName}" 
+                    <StackPanel>
+                        <TextBox Text="{Binding CourseName}" 
                              Foreground="Black"/>
-                    </Grid>
+                    </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
 
-        <Button Content="Add Student" HorizontalAlignment="Left" Margin="117,66,0,0" VerticalAlignment="Top" Click="AddStudent"/>
-        <Button Content="Add Course" HorizontalAlignment="Left" Margin="117,436,0,0" VerticalAlignment="Top" Click="AddCourse"/>
+
+
+        <Button Content="Update Data" HorizontalAlignment="Left" Margin="117,66,0,0" VerticalAlignment="Top" Click="ShowData"/>
+        <Button Content="Add Student" HorizontalAlignment="Left" Margin="117,276,0,0" VerticalAlignment="Top" Click="AddStudent"/>
+        <TextBox x:Name="FirstName" HorizontalAlignment="Left" Margin="302,263,0,0" Text="First Name" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="LastName" HorizontalAlignment="Left" Margin="302,330,0,0" Text="Last Name" VerticalAlignment="Top" Width="93"/>
 
 
     </Grid>

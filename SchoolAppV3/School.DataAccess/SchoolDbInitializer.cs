@@ -13,7 +13,11 @@ namespace School.DataAccess
 
         protected override void Seed(SchoolContext context)
         {
+            var aga = context.Students.Add(new Student() { FirstName = "Aga", LastName = "Hussein"});
+            context.Students.Add(new Student() { FirstName = "This", LastName = "Sucks" });
+            context.Students.Add(new Student() { FirstName = "Lee", LastName = "Child" });
 
+            context.Courses.Add(new Course() { CourseName = "RIP", Students = new List<Student>() { aga } });
             base.Seed(context);
         }
     }
