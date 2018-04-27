@@ -1,0 +1,2 @@
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Console\obj\Debug\GymBuddy.Console.csprojResolveAssemblyReference.cache
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Console\obj\Debug\GymBuddy.Console.csproj.CoreCompileInputs.cache

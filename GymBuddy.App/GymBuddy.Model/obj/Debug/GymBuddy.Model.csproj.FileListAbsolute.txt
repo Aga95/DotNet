@@ -1,0 +1,6 @@
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\bin\Debug\GymBuddy.Model.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\bin\Debug\GymBuddy.Model.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\obj\Debug\GymBuddy.Model.csproj.CoreCompileInputs.cache
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\obj\Debug\GymBuddy.Model.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\obj\Debug\GymBuddy.Model.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\obj\Debug\GymBuddy.Model.csprojResolveAssemblyReference.cache

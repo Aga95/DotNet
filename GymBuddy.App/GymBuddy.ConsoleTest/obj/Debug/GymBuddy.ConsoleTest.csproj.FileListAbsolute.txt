@@ -1,0 +1,17 @@
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.ConsoleTest.exe.config
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.ConsoleTest.exe
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.ConsoleTest.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\EntityFramework.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.DataAccess.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.Model.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.DataAccess.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.DataAccess.dll.config
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\GymBuddy.Model.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\EntityFramework.xml
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\obj\Debug\GymBuddy.ConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\obj\Debug\GymBuddy.ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\obj\Debug\GymBuddy.ConsoleTest.csproj.CopyComplete
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\obj\Debug\GymBuddy.ConsoleTest.exe
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.ConsoleTest\obj\Debug\GymBuddy.ConsoleTest.pdb

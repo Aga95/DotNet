@@ -1,0 +1,2 @@
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolApp(TheRightOne)\SchoolAppV3\App1\App1.csproj;x86
+C:\Users\Aga\Documents\GitHub\DotNet\SchoolApp(TheRightOne)\SchoolAppV3\School.Model\School.Model.csproj;neutral

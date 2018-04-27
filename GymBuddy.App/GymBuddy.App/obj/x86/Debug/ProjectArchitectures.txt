@@ -1,0 +1,2 @@
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.App\GymBuddy.App.csproj;x86
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.Model\GymBuddy.Model.csproj;neutral

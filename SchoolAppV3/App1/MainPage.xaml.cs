@@ -27,11 +27,23 @@ namespace App1
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    /// <seealso cref="Windows.UI.Xaml.Controls.Page" />
+    /// <seealso cref="Windows.UI.Xaml.Markup.IComponentConnector" />
+    /// <seealso cref="Windows.UI.Xaml.Markup.IComponentConnector2" />
     public sealed partial class MainPage : Page
     {
-        public ObservableCollection<Student> StudentList;
-        public ObservableCollection<Course> CourseList;
+        /// <summary>
+        /// The student list
+        /// </summary>
+        private ObservableCollection<Student> StudentList;
+        /// <summary>
+        /// The course list
+        /// </summary>
+        private ObservableCollection<Course> CourseList;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainPage"/> class.
+        /// </summary>
         public MainPage()
         {
             this.InitializeComponent();
@@ -39,11 +51,21 @@ namespace App1
             GetDatabaseCourses();
         }
 
+        /// <summary>
+        /// Shows the data.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void ShowData(object sender, RoutedEventArgs e)
         {
             studentViewList.ItemsSource = StudentList;
             courseViewList.ItemsSource = CourseList;
         }
+        /// <summary>
+        /// Adds the student.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private async void AddStudent(object sender, RoutedEventArgs e)
         {
             string firstName = FirstName.Text;
@@ -64,6 +86,11 @@ namespace App1
             GetDatabaseStudents();
         }
 
+        /// <summary>
+        /// Adds the course.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private async void AddCourse(object sender, RoutedEventArgs e)
         {
             string courseName = CourseName.Text;
@@ -83,6 +110,9 @@ namespace App1
             GetDatabaseCourses();
         }
 
+        /// <summary>
+        /// Gets the database students.
+        /// </summary>
         public async void GetDatabaseStudents()
         {
             dynamic students;
@@ -101,6 +131,9 @@ namespace App1
             }
             
         }
+        /// <summary>
+        /// Gets the database courses.
+        /// </summary>
         public async void GetDatabaseCourses()
         {
             dynamic courses;

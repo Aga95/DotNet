@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\App1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-10T15:21:18.854</Modified>
+      <Modified>2018-04-24T15:15:22.677</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\App1\bin\x86\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2018-04-10T15:21:18.222</Modified>
+      <Modified>2018-04-24T15:15:20.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aga\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -521,7 +521,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\School.Model\bin\Debug\School.Model.dll">
       <PackagePath>School.Model.dll</PackagePath>
-      <Modified>2018-04-10T14:58:46.973</Modified>
+      <Modified>2018-04-24T15:15:18.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\App1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -572,11 +572,11 @@
     <AppxPackagedFile Include="C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\App1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-10T15:21:18.663</Modified>
+      <Modified>2018-04-10T15:51:22.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aga\Documents\GitHub\DotNet\SchoolAppV3\App1\bin\x86\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2018-04-10T15:21:18.850</Modified>
+      <Modified>2018-04-24T15:15:22.673</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

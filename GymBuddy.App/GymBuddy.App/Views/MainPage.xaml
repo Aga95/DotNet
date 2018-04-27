@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="GymBuddy.App.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GymBuddy.App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Template10.Controls"
+    xmlns:vm="using:GymBuddy.App.ViewModels"
+    xmlns:local1="using:GymBuddy.App.SampleData"
+    mc:Ignorable="d">
+
+
+    <RelativePanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Button Content="Add day" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="98" Margin="53,107,-86,-128" Click="AddDay"/>
+        <DatePicker Name="Dates" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="296" Margin="200,122,-200,-122"/>
+        <TextBlock HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="Excercise done:" VerticalAlignment="Top" Width="115" Margin="53,270,-106,-284"/>
+        <TextBox Name="Name" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="90" Margin="200,270,-219,-270"/>
+        <TextBox Name="Lifted" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Lifted" VerticalAlignment="Top" Width="90" Margin="321,270,-340,-270"/>
+        <TextBox Name="Sets" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Sets" VerticalAlignment="Top" Width="90" Margin="445,270,-464,-270"/>
+        <Button Content="Go to Logg" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="103" Margin="1150,53,-1188,-64" Click="GoToLogg"/>
+        <Button Content="Go to Profile" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="103" Margin="1150,117,-1188,-128" Click="GoToProfile"/>
+        <ComboBox x:Name="ProfileCB" HorizontalAlignment="Left" Margin="200,199,-91,-98" VerticalAlignment="Top" Width="296">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding FirstName}" 
+                             Foreground="Black"/>
+                        <TextBlock Text="{Binding LastName}" 
+                             Foreground="Black"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Content="Get Profiles" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="98" Margin="53,199,-86,-209" Click="Button_Click"/>
+
+    </RelativePanel>
+</Page>

@@ -1,0 +1,14 @@
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\GymBuddy.DataAccess.dll.config
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\GymBuddy.DataAccess.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\GymBuddy.DataAccess.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\GymBuddy.Model.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\GymBuddy.Model.pdb
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\obj\Debug\GymBuddy.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\obj\Debug\GymBuddy.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\obj\Debug\GymBuddy.DataAccess.csproj.CopyComplete
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\obj\Debug\GymBuddy.DataAccess.dll
+C:\Users\Aga\Desktop\GymBuddy.App\GymBuddy.DataAccess\obj\Debug\GymBuddy.DataAccess.pdb

@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="App1.MainPage"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:model="using:School.Model"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        
+        <ListView x:ConnectionId='1' x:Name="studentViewList" Margin="511,53,575,412"
+                  Background="CadetBlue">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding FirstName}" 
+                             Foreground="Black"/>
+                        <TextBlock Text="{Binding LastName}" 
+                             Foreground="Black"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView x:ConnectionId='2' x:Name="courseViewList" Margin="834,53,252,412"
+                  Background="CadetBlue">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding CourseName}" 
+                             Foreground="Black"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+
+        <Button x:ConnectionId='3' Content="Update Data" HorizontalAlignment="Left" Margin="117,66,0,0" VerticalAlignment="Top"                 />
+        <Button x:ConnectionId='4' Content="Add Student" HorizontalAlignment="Left" Margin="117,276,0,0" VerticalAlignment="Top"                   />
+        <TextBox x:ConnectionId='5' x:Name="FirstName" HorizontalAlignment="Left" Margin="302,263,0,0" Text="First Name" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:ConnectionId='6' x:Name="LastName" HorizontalAlignment="Left" Margin="302,330,0,0" Text="Last Name" VerticalAlignment="Top" Width="93"/>
+        <Button x:ConnectionId='7' Content="Add Course" HorizontalAlignment="Left" Margin="118,464,0,0" VerticalAlignment="Top"                  />
+        <TextBox x:ConnectionId='8' x:Name="CourseName" HorizontalAlignment="Left" Margin="302,464,0,0" Text="Course Name" VerticalAlignment="Top" Width="93"/>
+
+
+    </Grid>
+</Page>
+
+
